@@ -4,8 +4,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     <title>Clock</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -18,7 +19,7 @@
 
   <body>
     <div class="container">
-      <img src="bg-image.png" />
+      <img src="image/bg-image.png" />
       <h1 id="time"></h1>
       <h2 id="date"></h2>
       <div class="quote">
@@ -43,6 +44,6 @@
         date.innerHTML = d.toLocaleDateString(undefined, options);
       }, 1000);
     </script>
-    
+
   </body>
 </html>
